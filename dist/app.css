@@ -1,0 +1,47 @@
+body,
+html {
+  height: 100%;
+  font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    "Helvetica Neue", sans-serif;
+}
+
+.login-form {
+  margin: 300px auto 0;
+  width: 300px;
+  max-width: 400px;
+  z-index: 100;
+  margin: 0 auto;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.login-form > h3 {
+  color: #43464b;
+  font-weight: 200;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.addForm {
+  margin-bottom: 20px;
+}
+
+.not-found {
+  display: block;
+  text-align: center;
+  color: rebeccapurple;
+}
+
+.error {
+  color: tomato;
+  margin-top: 10px;
+}
+
+.logout {
+  margin-right: 10px;
+}
+
+.table-items {
+  height: 500px;
+  overflow-x: auto;
+}
